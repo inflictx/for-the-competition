@@ -1,14 +1,17 @@
 .header {
-    position: fixed;
-    padding: 46px 0;
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 100%;
-    background-color: #fff;
+  position: fixed;
+  padding: 46px 0;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.active {
+  background: black;
+  color: white;
 }
 
 @media screen and (max-width: 984px) {
-    .header {
-        padding: 24px 0;
-    }
+  .header {
+    padding: 24px 0;
+  }
 }

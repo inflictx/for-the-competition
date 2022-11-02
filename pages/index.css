@@ -46,3 +46,8 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__title/card__title.css);
+
+/* dark mode */
+@import url(../blocks/dark-mode/active.css);
+@import url(../blocks/dark-mode/indicator.css);
+@import url(../blocks/dark-mode/toggle.css);
