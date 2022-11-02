@@ -1,0 +1,15 @@
+.card {
+    max-width: 244px;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .card {
+        max-width: 320px;
+    }
+}

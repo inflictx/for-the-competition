@@ -1,0 +1,21 @@
+.intro {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 158px 0 68px;
+}
+
+@media screen and (max-width: 984px) {
+    .intro {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 102px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

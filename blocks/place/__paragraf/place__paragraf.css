@@ -1,0 +1,24 @@
+.place__paragraf {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 0;
+    max-width: 370px;
+    margin-bottom: 20px;
+}
+
+.place__paragraf:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+    .place__paragraf {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .place__paragraf {
+        max-width: 100%;
+    }
+}
