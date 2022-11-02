@@ -12,7 +12,7 @@ closeButton.addEventListener("click", function () {
 }); */
 
 //toggle
-const a = document.querySelector("a");
+
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
@@ -20,7 +20,6 @@ toggle.addEventListener("click", function () {
   toggle.classList.toggle("active");
   body.classList.toggle("active");
   header.classList.toggle("active");
-  a.classList.toggle("active");
 });
 
 console.log("test");
