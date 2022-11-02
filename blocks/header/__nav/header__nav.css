@@ -1,0 +1,11 @@
+.header__nav {
+    display: flex;
+    padding: 0 68px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 984px) {
+    .header__nav {
+        padding: 0 24px;
+    }
+}

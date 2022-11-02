@@ -1,0 +1,19 @@
+.authors {
+    padding: 133px 68px 0;
+}
+
+@media screen and (max-width: 984px) {
+    .authors {
+        padding-top: 50px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .authors {
+        padding-top: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
