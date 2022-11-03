@@ -1,4 +1,8 @@
 .root {
-    font-family: 'PTSansCaption', "Arial", "sans-serif";
-    box-sizing: border-box;
+  font-family: "PTSansCaption", "Arial", "sans-serif";
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
 }

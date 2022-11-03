@@ -46,3 +46,16 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__title/card__title.css);
+
+/* dark mode */
+@import url(../blocks/dark-mode/active.css);
+@import url(../blocks/dark-mode/indicator.css);
+@import url(../blocks/dark-mode/toggle.css);
+
+/* Progress bar */
+@import url(../blocks/scrollBar/progressbar.css);
+@import url(../blocks/scrollBar/scrollPath.css);
+
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);

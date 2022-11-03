@@ -1,24 +1,30 @@
 .intro__image {
-    width: 358px;
-    height: 358px;
+  width: 358px;
+  height: 358px;
+  -webkit-box-reflect: below 2px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.2));
+  transition: all 1s ease;
+}
+.intro__image:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1124px) {
-    .intro__image {
-        width: 300px;
-        height: 300px;
-    }
+  .intro__image {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 984px) {
-    .intro__image {
-        width: 240px;
-        height: 240px;
-    }
+  .intro__image {
+    width: 240px;
+    height: 240px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .intro__image {
-        display: none;
-    }
+  .intro__image {
+    display: none;
+  }
 }

@@ -1,91 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./pages/index.css">
-      <title>Куда я поеду?</title>
-   </head>
-   <body class="root">
-      <div class="page">
-         <header class="header">
-            <nav class="header__nav">
-               <ul class="header__menu">
-                  <li class="header__menu-item"> <a href="" class="header__link">Мечты</a> </li>
-                  <li class="header__menu-item"> <a href="" class="header__link">Ожидание</a> </li>
-                  <li class="header__menu-item"> <a href="" class="header__link">Реальность</a> </li>
-               </ul>
-               <ul class="header__menu">
-                  <li class="header__menu-item"> <a href="" class="header__link">Пожаловаться</a> </li>
-               </ul>
-            </nav>
-         </header>
-         <main class="main">
-            <section class="intro">
-               <div class="headings intro__headings">
-                  <p class="headings__title">Куда я поеду</p>
-                  <h1 class="headings__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./pages/index.css">
+   <title>Куда я поеду?</title>
+   <script src="./scripts/main.js" defer></script>
+</head>
+
+<body class="root">
+   <div id="progressbar"></div>
+   <div class="scrollPath"></div>
+   <div class="page">
+      <header class="header">
+         <nav class="header__nav">
+            <ul class="header__menu">
+               <li class="header__menu-item"> <a href="" class="header__link">Мечты</a> </li>
+               <li class="header__menu-item"> <a href="" class="header__link">Ожидание</a> </li>
+               <li class="header__menu-item"> <a href="" class="header__link">Реальность</a> </li>
+            </ul>
+            <ul class="header__menu">
+               <div id="toggle">
+                  <i class="indicator">
+                     <!-- <p class="ON">ON</p>
+                     <p class="OFF">OFF</p> -->
+                  </i>
                </div>
-               <img src="./images/intro-image.jpg" alt="Крыло самолета" class="intro__image"> 
-            </section>
-            <section class="places">
-               <article class="place">
-                  <img class="place__image" src="./images/places-forest.jpeg" alt="Лес">
-                  <div class="place__text">
-                     <h2 class="place__title">Поеду в лес</h2>
-                     <div class="place__description">
-                        <p class="place__paragraf">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья. </p>
-                        <p class="place__paragraf">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
-                     </div>
+               <li class="header__menu-item"> <a href="" class="header__link">Пожаловаться</a> </li>
+            </ul>
+         </nav>
+      </header>
+      <main class="main">
+         <section class="intro">
+            <div class="headings intro__headings">
+               <p class="headings__title">Куда я поеду</p>
+               <h1 class="headings__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+            </div>
+            <img src="./images/intro-image.jpg" alt="Крыло самолета" class="intro__image">
+         </section>
+         <section class="places">
+            <article class="place">
+               <img class="place__image" src="./images/places-forest.jpeg" alt="Лес">
+               <div class="place__text">
+                  <h2 class="place__title">Поеду в лес</h2>
+                  <div class="place__description">
+                     <p class="place__paragraf">Лес — экологическая система, биоценоз, в которой главной жизненной
+                        формой являются деревья. </p>
+                     <p class="place__paragraf">Лес — составная часть природы, понятие «лес» можно рассматривать на
+                        разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть
+                        насаждение. Леса занимают около трети площади суши.</p>
                   </div>
-               </article>
-               <article class="place">
-                  <img class="place__image" src="./images/places-mountains.jpeg" alt="Горы">
-                  <div class="place__text">
-                     <h2 class="place__title">Поеду в горы</h2>
-                     <div class="place__description">
-                        <p class="place__paragraf">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли. </p>
-                     </div>
-                  </div>
-               </article>
-               <article class="place">
-                  <img class="place__image" src="./images/places-black-sea.jpeg" alt="Море">
-                  <div class="place__text">
-                     <h2 class="place__title">Поеду на Чёрное море</h2>
-                     <div class="place__description">
-                        <p class="place__paragraf">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
-                        <p class="place__paragraf">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
-                        <p class="place__paragraf">Уеду я.</p>
-                     </div>
-                  </div>
-               </article>
-            </section>
-            <section class="authors">
-               <div class="headings authors__headings">
-                  <h2 class="headings__title">Люди</h2>
-                  <p class="headings__subtitle"> Что говорят и&nbsp;говорили люди о&nbsp;путешествиях </p>
                </div>
-               <ul class="cards">
-                  <li class="card">
-                     <h3 class="card__title">Иван Бунин</h3>
-                     <p class="card__text"> Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать. </p>
-                  </li>
-                  <li class="card">
-                     <h3 class="card__title">Альбер Камю</h3>
-                     <p class="card__text"> Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя. </p>
-                  </li>
-                  <li class="card">
-                     <h3 class="card__title">Норвежская пословица</h3>
-                     <p class="card__text"> Лишь тот, кто странствует, открывает новые пути. </p>
-                  </li>
-                  <li class="card">
-                     <h3 class="card__title">Мария Захарова</h3>
-                     <p class="card__text"> В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие. </p>
-                  </li>
-               </ul>
-            </section>
-         </main>
-      </div>
-   </body>
+            </article>
+            <article class="place">
+               <img class="place__image" src="./images/places-mountains.jpeg" alt="Горы">
+               <div class="place__text">
+                  <h2 class="place__title">Поеду в горы</h2>
+                  <div class="place__description">
+                     <p class="place__paragraf">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки,
+                        25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной
+                        поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё
+                        начало большинство рек Земли. </p>
+                  </div>
+               </div>
+            </article>
+            <article class="place">
+               <img class="place__image" src="./images/places-black-sea.jpeg" alt="Море">
+               <div class="place__text">
+                  <h2 class="place__title">Поеду на Чёрное море</h2>
+                  <div class="place__description">
+                     <p class="place__paragraf">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был.
+                        Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле
+                        синее небо, и падать в это синее небо, я позову.</p>
+                     <p class="place__paragraf">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное
+                        море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+                     <p class="place__paragraf">Уеду я.</p>
+                  </div>
+               </div>
+            </article>
+         </section>
+         <section class="authors">
+            <div class="headings authors__headings">
+               <h2 class="headings__title">Люди</h2>
+               <p class="headings__subtitle"> Что говорят и&nbsp;говорили люди о&nbsp;путешествиях </p>
+            </div>
+            <ul class="cards">
+               <li class="card">
+                  <h3 class="card__title">Иван Бунин</h3>
+                  <p class="card__text"> Человека делают счастливым три вещи: любовь, интересная работа
+                     и&nbsp;возможность путешествовать. </p>
+               </li>
+               <li class="card">
+                  <h3 class="card__title">Альбер Камю</h3>
+                  <p class="card__text"> Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести
+                     себя. </p>
+               </li>
+               <li class="card">
+                  <h3 class="card__title">Норвежская пословица</h3>
+                  <p class="card__text"> Лишь тот, кто странствует, открывает новые пути. </p>
+               </li>
+               <li class="card">
+                  <h3 class="card__title">Мария Захарова</h3>
+                  <p class="card__text"> В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее,
+                     ответственнейшее и&nbsp;очень рискованное предприятие. </p>
+               </li>
+            </ul>
+         </section>
+         <section class="slider">
+            <ul class="gallery">
+               <li class="gallery__item"><img src="/images/ForReflection/1.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/2.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/3.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/4.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/5.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/6.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/7.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/8.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/9.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/10.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/11.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/12.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/13.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/14.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/15.jpg" alt=""></li>
+               <li class="gallery__item"><img src="/images/ForReflection/16.jpg" alt=""></li>
+            </ul>
+         </section>
+      </main>
+   </div>
+</body>
+
 </html>
