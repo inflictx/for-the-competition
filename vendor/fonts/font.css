@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'PT Sans Caption';
+    font-family: 'Raleway Regular';
     font-weight: normal;
     font-style: normal;
-    src: url(./PTSans-Caption.woff2) format('woff2'),
-        url(./PTSans-Caption.woff) format('woff'),
-        url(./PTSans-CaptionBold.ttf) format('truetype');
+    src: url(./raleway_regular.woff2) format('woff2'),
+        url(./raleway_regular.woff) format('woff'),
+        url(./raleway_regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'PT Sans Caption';
+    font-family: 'Raleway Bold';
     font-weight: bold;
     font-style: normal;
-    src: url(./PTSans-CaptionBold.woff2) format('woff2'),
-        url(./PTSans-CaptionBold.woff) format('woff'),
-        url(./PTSans-CaptionBold.ttf) format('truetype');
+    src: url(./raleway_bold.woff2) format('woff2'),
+        url(./raleway_bold.woff) format('woff'),
+        url(./raleway_bold.ttf) format('truetype');
 }
