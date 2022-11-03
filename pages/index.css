@@ -51,3 +51,7 @@
 @import url(../blocks/dark-mode/active.css);
 @import url(../blocks/dark-mode/indicator.css);
 @import url(../blocks/dark-mode/toggle.css);
+
+/* Progress bar */
+@import url(../blocks/scrollBar/progressbar.css);
+@import url(../blocks/scrollBar/scrollPath.css);
