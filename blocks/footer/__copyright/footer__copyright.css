@@ -13,6 +13,7 @@
 @media screen and (max-width: 984px) {
   .footer__copyright {
     min-height: 320px;
+    background: #000000;
   }
 }
 
