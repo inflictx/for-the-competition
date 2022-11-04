@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 767px) {
     .place__title {
-        padding: 0;
-        margin: 26px 16px 26px 16px;
+        padding-right: 16px;
+        padding-bottom: 26px;
+        padding-left: 16px;
     }
 }

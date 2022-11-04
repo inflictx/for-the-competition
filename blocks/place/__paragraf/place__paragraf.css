@@ -1,10 +1,10 @@
 .place__paragraf {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.4;
     font-weight: normal;
     margin: 0;
     max-width: 370px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .place__paragraf:last-of-type {

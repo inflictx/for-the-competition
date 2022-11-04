@@ -59,3 +59,9 @@
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__img/gallery__img.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
