@@ -14,6 +14,7 @@
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/header/__btn/__btn-name/header__btn-name.css);
+@import url(../blocks/header/__btn/_tikets/header__btn_tikets.css);
 
 /* burger-menu */
 @import url(../blocks/header/__burger/header__burger.css);
