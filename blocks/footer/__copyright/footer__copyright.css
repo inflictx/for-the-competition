@@ -1,18 +1,23 @@
 .footer__copyright {
+    align-items: center;
+    background-color: #fecda7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 620px;
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-    font-size: 40px;
-    line-height: 1.5;
-    font-weight: 700;
 }
 
 @media screen and (max-width: 984px) {
     .footer__copyright {
-        font-size: 26px;
+        min-height: 320px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .footer__copyright {
-        font-size: 18px;
+        min-height: 120px;
     }
 }
