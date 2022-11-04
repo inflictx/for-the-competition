@@ -1,19 +1,27 @@
 .footer__author {
-    text-decoration: none;
-    color: black;
-    font-size: 40px;
-    line-height: 1.5;
-    font-weight: 700;
+  text-decoration: none;
+  color: rgb(70, 60, 60);
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.footer__author:hover {
+  transform: scale(1.1);
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff;
 }
 
 @media screen and (max-width: 984px) {
-    .footer__author {
-        font-size: 26px;
-    }
+  .footer__author {
+    font-size: 26px;
+  }
 }
 
 @media screen and (max-width: 568px) {
-    .footer__author {
-        font-size: 18px;
-    }
+  .footer__author {
+    font-size: 18px;
+  }
 }

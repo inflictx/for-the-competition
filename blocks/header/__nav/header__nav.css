@@ -10,8 +10,9 @@
   }
 }
 
-@media screen and (max-width: 539px) {
+/*@media screen and (max-width: 539px) {
   .header__nav {
-    display: none;
+    flex-direction: column;
+    position: absolute;
   }
-}
+} */
