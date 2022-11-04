@@ -1,7 +1,14 @@
 .header__menu-item {
-    margin-right: 36px;
+  margin-right: 36px;
+  transition: all 1s ease;
 }
 
 .header__menu-item:last-of-type {
-    margin: 0;
+  margin: 0;
+}
+
+.header__menu-item:hover {
+  transform: scale(1.3);
+  border: 1px solid;
+  border-radius: 50%;
 }

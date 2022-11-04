@@ -12,7 +12,7 @@ closeButton.addEventListener("click", function () {
 }); */
 
 //toggle
-
+const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
@@ -20,6 +20,9 @@ toggle.addEventListener("click", function () {
   toggle.classList.toggle("active");
   body.classList.toggle("active");
   header.classList.toggle("active");
+  for (let i = 0; i < link.length; i++) {
+    link[i].classList.toggle("active");
+  }
 });
 
 //progressBar
