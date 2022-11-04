@@ -12,6 +12,7 @@ closeButton.addEventListener("click", function () {
 }); */
 
 //toggle
+
 const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
@@ -34,4 +35,11 @@ window.onscroll = function () {
   progress.style.height = progressHeight + "%";
 };
 
-console.log("test");
+//burger animation
+const header__burger = document.getElementById("header__burger");
+const burger__line = document.querySelectorAll(".burger__line");
+header__burger.addEventListener("click", function () {
+  for (let i = 0; i < burger__line.length; i++) {
+    burger__line[i].classList.toggle("burger__line_active");
+  }
+});

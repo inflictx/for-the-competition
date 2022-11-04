@@ -1,6 +1,8 @@
 .header__menu-item {
   margin-right: 36px;
   transition: all 1s ease;
+  /* -webkit-box-reflect: below 2px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.3)); */
 }
 
 .header__menu-item:last-of-type {
