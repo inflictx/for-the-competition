@@ -53,8 +53,8 @@
 @import url(../blocks/dark-mode/toggle.css);
 
 /* Progress bar */
-@import url(../blocks/scrollBar/progressbar.css);
-@import url(../blocks/scrollBar/scrollPath.css);
+@import url(../blocks/progressbar/progressbar.css);
+@import url(../blocks/scrollPath/scrollPath.css);
 
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
