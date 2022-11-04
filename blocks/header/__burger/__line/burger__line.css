@@ -4,7 +4,7 @@
   position: absolute;
   width: 40px;
   height: 4px;
-  background: #1863ff;
+  background: black;
   border-radius: 4px;
   transition: 0.5s;
 }
@@ -18,20 +18,4 @@
   transform: translateY(15px);
   width: 15px;
   left: 15px;
-}
-
-.burger__line_active:nth-child(3) {
-  transform: translateX(60px);
-  transition-delay: 0.125s;
-}
-
-.burger__line_active:nth-child(1) {
-  width: 40px;
-  transform: translateY(0px) rotate(45deg);
-  transition-delay: 0.25s;
-}
-
-.burger__line_active:nth-child(2) {
-  width: 40px;
-  transform: translateY(0px) rotate(315deg);
 }

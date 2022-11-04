@@ -12,12 +12,13 @@ closeButton.addEventListener("click", function () {
 }); */
 
 //toggle
-
+/* const footer = document.querySelector(".footer__copyright"); */
 const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
 toggle.addEventListener("click", function () {
+  /* footer.classList.toggle("active"); */
   toggle.classList.toggle("active");
   body.classList.toggle("active");
   header.classList.toggle("active");

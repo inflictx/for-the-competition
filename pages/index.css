@@ -65,9 +65,11 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
+@import url(../blocks/footer/__item/footer__item.css);
 /* burger-menu */
 
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger/__line/burger__line.css);
 @import url(../blocks/header/__burger/__burger-active/header__birger-active.css);
+
+@import url(../btn.css);

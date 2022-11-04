@@ -17,6 +17,7 @@
   border: 1px solid;
   border-radius: 50px;
   transition: 0.3s;
+  transform: scale(1.1);
 
   /* -webkit-filter: invert(100%);
   filter: invert(100%); */

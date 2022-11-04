@@ -5,7 +5,6 @@
   position: relative;
   width: 70px;
   height: 70px;
-  background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   display: flex;
@@ -13,4 +12,11 @@
   align-items: center;
   cursor: pointer;
   overflow: hidden;
+  display: none;
 }
+
+/* @media screen and (max-width: 539px) {
+  #header__burger {
+    display: flex;
+  }
+} */
