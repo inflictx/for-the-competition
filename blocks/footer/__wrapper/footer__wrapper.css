@@ -1,0 +1,19 @@
+.footer__wrapper {
+    align-items: center;
+    background-color: #fecda7;
+    display: flex;
+    justify-content: center;
+    min-height: 620px;
+}
+
+@media screen and (max-width: 984px) {
+    .footer__wrapper {
+        min-height: 320px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer__wrapper {
+        min-height: 120px;
+    }
+}
