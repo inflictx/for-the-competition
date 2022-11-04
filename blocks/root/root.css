@@ -1,6 +1,7 @@
 .root {
   font-family: "PTSansCaption", "Arial", "sans-serif";
   box-sizing: border-box;
+  will-change: contents;
 }
 
 ::-webkit-scrollbar {

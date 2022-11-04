@@ -1,7 +1,7 @@
 .place__image {
   width: 50%;
   -webkit-box-reflect: below 2px
-    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.2));
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.3));
   transition: all 1s ease;
 }
 .place__image:hover {

@@ -13,6 +13,7 @@ closeButton.addEventListener("click", function () {
 
 //toggle
 
+const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
@@ -20,6 +21,9 @@ toggle.addEventListener("click", function () {
   toggle.classList.toggle("active");
   body.classList.toggle("active");
   header.classList.toggle("active");
+  for (let i = 0; i < link.length; i++) {
+    link[i].classList.toggle("active");
+  }
 });
 
 //progressBar
@@ -31,4 +35,11 @@ window.onscroll = function () {
   progress.style.height = progressHeight + "%";
 };
 
-console.log("test");
+//burger animation
+const header__burger = document.getElementById("header__burger");
+const burger__line = document.querySelectorAll(".burger__line");
+header__burger.addEventListener("click", function () {
+  for (let i = 0; i < burger__line.length; i++) {
+    burger__line[i].classList.toggle("burger__line_active");
+  }
+});

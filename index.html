@@ -6,8 +6,10 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./pages/index.css">
+   <link rel="stylesheet" href="style.css">
    <title>Куда я поеду?</title>
-   <script src="./scripts/main.js" defer></script>
+
+
 </head>
 <!-- test -->
 
@@ -16,11 +18,19 @@
    <div class="scrollPath"></div>
    <div class="page">
       <header class="header">
+
          <nav class="header__nav">
             <ul class="header__menu">
-               <li class="header__menu-item"> <a href="" class="header__link">Мечты</a> </li>
-               <li class="header__menu-item"> <a href="" class="header__link">Ожидание</a> </li>
-               <li class="header__menu-item"> <a href="" class="header__link">Реальность</a> </li>
+               <li class="header__menu-item"> <a href="" class="header__link header__link_active link">Мечты</a>
+               </li>
+               <li class="header__menu-item"> <a href="" class="header__link link">Ожидание</a> </li>
+               <li class="header__menu-item"> <a href="" class="header__link link">Реальность</a> </li>
+            </ul>
+
+            <ul id="header__burger">
+               <li class="burger__line"></li>
+               <li class="burger__line"></li>
+               <li class="burger__line"></li>
             </ul>
             <ul class="header__menu">
                <div id="toggle">
@@ -28,7 +38,7 @@
 
                   </i>
                </div>
-               <li class="header__menu-item"> <a href="" class="header__link">Пожаловаться</a> </li>
+               <li class="header__menu-item"> <a href="" class="header__link link">Пожаловаться</a> </li>
             </ul>
          </nav>
       </header>
@@ -140,6 +150,7 @@
          </ul>
       </footer>
    </div>
+   <script src="./scripts/main.js"></script>
 </body>
 
 </html>

@@ -57,11 +57,17 @@
 @import url(../blocks/scrollPath/scrollPath.css);
 
 /* gallery */
-@import url(../blocks/gallery/gallery.css);
+/* @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__img/gallery__img.css);
+@import url(../blocks/gallery/__img/gallery__img.css); */
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* burger-menu */
+
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/__line/burger__line.css);
+@import url(../blocks/header/__burger/__burger-active/header__birger-active.css);
