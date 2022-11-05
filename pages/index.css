@@ -20,7 +20,7 @@
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger/__line/burger__line.css);
 @import url(../blocks/header/__burger/__burger-active/header__birger-active.css);
-
+@import url(../open-close.css);
 /* Intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__headings/intro__headings.css);
@@ -75,7 +75,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__item/footer__item.css);
 /* burger-menu */
-
-
 
 @import url(../btn.css);

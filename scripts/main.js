@@ -18,7 +18,6 @@ const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
 toggle.addEventListener("click", function () {
-  /* footer.classList.toggle("active"); */
   toggle.classList.toggle("active");
   body.classList.toggle("active");
   header.classList.toggle("active");
@@ -43,4 +42,11 @@ header__burger.addEventListener("click", function () {
   for (let i = 0; i < burger__line.length; i++) {
     burger__line[i].classList.toggle("burger__line_active");
   }
+});
+
+//burger open - close
+
+const burger = document.querySelector("header");
+header__burger.addEventListener("click", function () {
+  header.classList.toggle("open_close");
 });
