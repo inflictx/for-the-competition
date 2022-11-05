@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
   .header__nav {
     text-align: center;
     flex-direction: column;

@@ -1,11 +1,11 @@
 .header__btn_tikets {
-    display: none;
+  display: none;
 }
 
-@media screen and (max-width: 570px) {
-    .header__btn_tikets {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+@media screen and (max-width: 600px) {
+  .header__btn_tikets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -11,8 +11,8 @@ closeButton.addEventListener("click", function () {
   editPopup.classList.remove("popup_opened");
 }); */
 
-//toggle
-/* const footer = document.querySelector(".footer__copyright"); */
+//toggle_dark-theme
+
 const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
@@ -41,6 +41,12 @@ const burger__line = document.querySelectorAll(".burger__line");
 header__burger.addEventListener("click", function () {
   for (let i = 0; i < burger__line.length; i++) {
     burger__line[i].classList.toggle("burger__line_active");
+  }
+});
+const burger__dark = document.querySelectorAll(".burger__line");
+toggle.addEventListener("click", function () {
+  for (let i = 0; i < burger__line.length; i++) {
+    burger__line[i].classList.toggle("burger__dark");
   }
 });
 

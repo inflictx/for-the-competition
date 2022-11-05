@@ -13,7 +13,7 @@
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
   .header__menu-item {
     margin: 0 0 20px;
   }
