@@ -1,16 +1,3 @@
-/* //Open popup
-let editButton = document.querySelector(".header__complain");
-let editPopup = document.querySelector(".popup");
-editButton.addEventListener("click", function () {
-  editPopup.classList.add("popup_opened");
-});
-
-//Close popup
-let closeButton = document.querySelector(".popup__close");
-closeButton.addEventListener("click", function () {
-  editPopup.classList.remove("popup_opened");
-}); */
-
 //toggle_dark-theme
 
 const link = document.querySelectorAll(".link");
@@ -54,5 +41,5 @@ toggle.addEventListener("click", function () {
 
 const burger = document.querySelector("header");
 header__burger.addEventListener("click", function () {
-  header.classList.toggle("open_close");
+  header.classList.toggle("header__open-close");
 });
