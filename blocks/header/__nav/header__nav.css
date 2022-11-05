@@ -10,9 +10,11 @@
   }
 }
 
-/*@media screen and (max-width: 539px) {
+@media screen and (max-width: 570px) {
   .header__nav {
     flex-direction: column;
-    position: absolute;
+    height: 90%;
+    align-items: center;
+    padding: 20px 15px 0;
   }
-} */
+}
