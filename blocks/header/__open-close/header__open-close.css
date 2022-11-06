@@ -1,4 +1,7 @@
 .header__open-close {
   top: 0;
   background: white;
+  -webkit-backdrop-filter: blur(1px)
+    linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(1px);
 }
