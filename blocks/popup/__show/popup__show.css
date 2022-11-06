@@ -3,3 +3,10 @@
   position: fixed;
   display: block;
 }
+
+@media screen and (max-width: 600px) {
+  .popup__show {
+    background: black;
+    color: white;
+  }
+}
