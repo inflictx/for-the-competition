@@ -14,5 +14,6 @@
 @media screen and (max-width: 700px) {
     .place__title {
         margin-bottom: 10px;
+        padding: 20px 20px;
     }
 }
