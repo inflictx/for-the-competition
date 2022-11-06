@@ -1,0 +1,4 @@
+.popup__show {
+  right: 0;
+  position: fixed;
+}
