@@ -8,7 +8,6 @@
   background-image: url(../../../images/close.svg);
   border-radius: 50%;
 }
-
 .popup__close:hover {
   transform: scale(1.1);
 }
