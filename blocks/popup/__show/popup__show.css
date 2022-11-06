@@ -8,7 +8,5 @@
   .popup__show {
     background: black;
     color: white;
-    -webkit-backdrop-filter: blur(1px);
-    backdrop-filter: blur(1px);
   }
 }
