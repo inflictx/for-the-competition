@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,6 @@
    <script src="./scripts/main.js" defer></script>
    <title>Куда я поеду?</title>
 </head>
-
 <body class="root">
    <div id="progressbar"></div>
    <div class="scrollPath"></div>
@@ -46,6 +44,7 @@
                </li>
             </ul>
          </nav>
+         
       </header>
       <ul id="header__burger">
          <li class="burger__line"></li>
@@ -139,23 +138,26 @@
             </li>
          </ul>
       </footer>
-
-
       <div class="popup">
          <button class="popup__close"></button>
          <h3 class="popup__title">Обратная связь</h3>
          <form action="/" method="post">
-            <fieldset>
-               <legend>Опишите вашу проблему</legend>
-               <label> Ваше имя: <input type="text" placeholder="Имя" required></input></label>
-               <label> Ваш email: <input type="email" placeholder="Email" required></input></label>
-               <label>Текст сообщения:</label>
-               <label><textarea cols="30" rows="5" placeholder="Введите ваше сообщение"></textarea></label>
+            <fieldset class="popup__wrapper">
+               <legend class="popup__title">Оставьте вашу жалобу</legend>
+               <div class="popup__item">
+                  <label class="popup__name"> Ваше имя: <input type="text" placeholder="Имя" required></input></label>
+               </div>
+               <div class="popup__item">
+                  <label class="popup__email"> Ваш email: <input type="email" placeholder="Email" required></input></label>
+               </div>
+               <label class="popup__text">Текст сообщения:</label>
+               <label class="popup__textarea"><textarea cols="32" rows="5" placeholder="Введите ваше сообщение"></textarea></label>
                <label class="popup__label">
                   <input class="popup__checkbox" type="checkbox" name="choice" id="yes" value="yes" required>
-                  Настоящим я даю согласие на обработку персональных данных</label>
+                  Настоящим я даю согласие на обработку персональных данных
+               </label>
+               <input class="btn__popup" type="submit" value="Отправить">
             </fieldset>
-            <input class="btn__popup" type="submit" value="Отправить">
          </form>
       </div>
    </div>

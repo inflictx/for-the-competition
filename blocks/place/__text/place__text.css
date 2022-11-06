@@ -2,5 +2,18 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
+  padding: 64px 70px 86px 70px;
+}
+
+@media screen and (max-width: 984px) {
+  .place__text {
+    padding: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    padding: 20px 20px 20px 20px;
+  }
 }
