@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="./pages/index.css">
    <link rel="stylesheet" href="style.css">
    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+   <script src="./scripts/main.js" defer></script>
    <title>Куда я поеду?</title>
 </head>
 
@@ -41,7 +42,7 @@
             </div>
             <ul class="header__menu">
                <li class="header__menu-item">
-                  <a href="" class="header__link link">Пожаловаться</a>
+                  <a class="header__link link popup__open">Пожаловаться</a>
                </li>
             </ul>
          </nav>
@@ -138,8 +139,28 @@
             </li>
          </ul>
       </footer>
+
+
+      <div class="popup">
+         <button class="popup__close"></button>
+         <h3 class="popup__title">Обратная связь</h3>
+         <form action="/" method="post">
+            <fieldset>
+               <legend>Опишите вашу проблему</legend>
+               <label> Ваше имя: <input type="text" placeholder="Имя" required></input></label>
+               <label> Ваш email: <input type="email" placeholder="Email" required></input></label>
+               <label>Текст сообщения:</label>
+               <label><textarea cols="30" rows="5" placeholder="Введите ваше сообщение"></textarea></label>
+               <label class="popup__label">
+                  <input class="popup__checkbox" type="checkbox" name="choice" id="yes" value="yes" required>
+                  Настоящим я даю согласие на обработку персональных данных</label>
+            </fieldset>
+            <input class="btn__popup" type="submit" value="Отправить">
+         </form>
+      </div>
    </div>
-   <script src="./scripts/main.js"></script>
+   </div>
+
 </body>
 
 </html>

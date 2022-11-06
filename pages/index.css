@@ -75,6 +75,9 @@
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__item/footer__item.css);
-/* burger-menu */
 
-@import url(../btn.css);
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__close/__close_line/popup__close_line.css);
+@import url(../blocks/popup/__show/popup__show.css);

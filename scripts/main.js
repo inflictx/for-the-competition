@@ -1,5 +1,4 @@
 //toggle_dark-theme
-
 const link = document.querySelectorAll(".link");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
@@ -42,4 +41,16 @@ toggle.addEventListener("click", function () {
 const burger = document.querySelector("header");
 header__burger.addEventListener("click", function () {
   header.classList.toggle("header__open-close");
+});
+
+//popup
+const openButton = document.querySelector(".popup__open");
+const editPopup = document.querySelector(".popup");
+openButton.addEventListener("click", function () {
+  editPopup.classList.add("popup__show");
+});
+
+const closeButton = document.querySelector(".popup__close");
+closeButton.addEventListener("click", function () {
+  editPopup.classList.remove("popup__show");
 });
