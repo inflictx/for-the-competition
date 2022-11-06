@@ -1,6 +1,6 @@
 # Командная работа для участия в конкурсе от [Яндекс.Практикум](https://practicum.yandex.ru/)
 
-[Посмотреть :eyes:]()
+[Посмотреть :eyes:](https://inflictx.github.io/for-the-competition/)
 
 ---
 
