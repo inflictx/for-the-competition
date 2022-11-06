@@ -54,3 +54,8 @@ const closeButton = document.querySelector(".popup__close");
 closeButton.addEventListener("click", function () {
   editPopup.classList.remove("popup__show");
 });
+
+const closePopup = document.querySelector("main");
+closePopup.addEventListener("click", function () {
+  editPopup.classList.remove("popup__show");
+});
