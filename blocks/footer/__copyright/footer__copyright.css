@@ -3,7 +3,7 @@
   background: #fecda7;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  gap: 50px;
   min-height: 620px;
   list-style-type: none;
   padding: 0;
@@ -14,11 +14,13 @@
   .footer__copyright {
     min-height: 320px;
     background: #000000;
+    gap: 40px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .footer__copyright {
+    gap: 30px;
     min-height: 120px;
   }
 }

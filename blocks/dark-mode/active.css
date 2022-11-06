@@ -1,5 +1,6 @@
 .active .indicator {
   left: 20px;
+  background-image: url(../../images/moon.svg);
 }
 
 .active {
