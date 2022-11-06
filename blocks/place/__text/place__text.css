@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: column;
   max-width: 100%;
-  padding: 64px 70px 86px 70px;
+  padding: 64px 200px 86px 70px;
 }
 
 @media screen and (max-width: 984px) {
